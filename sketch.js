@@ -39,8 +39,8 @@ function draw() {
  
     text("Amlitude(A)",width/2-190,height/2-60);
     text("omega(w)",width/2-190,height/2-20);
-    text("Constant (k)",width/2-190,height/2+20);
-    text("Time(t)",width/2-190,height/2+60);
+    text("Time(t)",width/2-190,height/2+20);
+    text("Constant (k)",width/2-190,height/2+60);
 
     set.mouseReleased(()=>{
       gameState="wave";
